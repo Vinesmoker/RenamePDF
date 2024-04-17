@@ -1,0 +1,25 @@
+﻿<Window x:Class="RenamePDF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RenamePDF"
+        mc:Ignorable="d"
+        Title="RenamePDF" Height="450" Width="800"
+        AllowDrop="True" Drop="MainWindow_Drop">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Button x:Name="SelectFilesButton" Content="Выберите файлы" Click="StartButton_Click" Margin="5"/>
+        <StackPanel Grid.Row="1" Orientation="Vertical" Margin="5">
+            <TextBox x:Name="FilePathTextBox" Margin="0 0 0 5"/>
+            <Button Content="Пуск" Click="StartRecognition_Click"/>
+        </StackPanel>
+        <Border Grid.Row="2" AllowDrop="True" BorderBrush="Black" BorderThickness="1" Margin="10">
+            <TextBlock Text="Перетащите файлы сюда!" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Border>
+    </Grid>
+</Window>

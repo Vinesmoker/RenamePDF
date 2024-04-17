@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RenamePDF", "RenamePDF\RenamePDF.csproj", "{BB2BAE4F-3915-4EF3-8101-064937A1FDF7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB2BAE4F-3915-4EF3-8101-064937A1FDF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB2BAE4F-3915-4EF3-8101-064937A1FDF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB2BAE4F-3915-4EF3-8101-064937A1FDF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB2BAE4F-3915-4EF3-8101-064937A1FDF7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {53A2A0EF-F821-4513-B847-7EFFAD9C1FED}
+	EndGlobalSection
+EndGlobal
